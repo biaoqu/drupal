@@ -20,8 +20,6 @@
 name: Build and deploy PHP app to Azure Web App
 
 on:
-  push:
-    branches: [ "9.5.x" ]
   workflow_dispatch:
 
 env:
